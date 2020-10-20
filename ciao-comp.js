@@ -1,6 +1,6 @@
-customElements.define('hello-comp', class extends HTMLElement {
+customElements.define('ciao-comp', class extends HTMLElement {
     connectedCallback() {
-      this.textContent = 'Ciao !';
+      this.innerHTML = '<h1>Ciao !</h1>';
     }
   });
   
