@@ -1,6 +1,6 @@
 customElements.define('hello-comp', class extends HTMLElement {
     connectedCallback() {
-      this.textContent = 'Hello !';
+      this.innerHTML = '<h1>Hello</h1>';
     }
   });
   
